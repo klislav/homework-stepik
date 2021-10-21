@@ -17,8 +17,9 @@ try:
     browser.execute_script("return arguments[0].scrollIntoView({block: 'center'});", button)
     button.click()
 finally:
-    time.sleep(30)
+    time.sleep(20)
     browser.quit()
+
 
 
 
